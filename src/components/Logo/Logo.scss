@@ -1,0 +1,29 @@
+.logo {
+  position: fixed;
+  top: 5%;
+  left: 66px;
+  z-index: 40;
+
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: 060606;
+  border: 1px solid white;
+  padding: 14px 10px;
+  font-size: 16px;
+  font-weight: lighter;
+
+  &.light {
+    color: white;
+    border: 1px solid #060606;
+    background-color: #060606;
+  }
+
+  @media (max-width: 768px) {
+    left: 32px;
+    top: 32px;
+  }
+}
